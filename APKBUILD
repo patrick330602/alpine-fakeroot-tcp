@@ -1,14 +1,13 @@
 # Contributor: Patrick Wu <wotingwu@live.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=fakeroot-tcp
+pkgname=fakeroot
 pkgver=1.23
-pkgrel=1
+pkgrel=2
 pkgdesc="Gives a fake root environment using TCP method, useful for building packages as a non-privileged user"
 arch="all"
 license="GPL-3.0-or-later"
 url="https://packages.debian.org/fakeroot"
 depends=
-replaces="fakeroot"
 options="!checkroot"
 checkdepends="bash"
 makedepends_build="libtool autoconf automake po4a"
